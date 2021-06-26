@@ -6,7 +6,6 @@
 
 using namespace std;
 int N;
-vector<int> card;
 priority_queue<int, vector<int>, greater<int> > pq;
 int answer = 0;
 
@@ -19,7 +18,6 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		int number;
 		cin >> number;
-		card.push_back(number);
 		pq.push(number);
 	}
 
